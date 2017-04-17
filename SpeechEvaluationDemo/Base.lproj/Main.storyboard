@@ -93,6 +93,7 @@
                     <connections>
                         <outlet property="lblMsg" destination="F5N-GM-7m7" id="Bpq-9f-8i5"/>
                         <outlet property="lblResult" destination="f3S-uq-7Yq" id="TPj-Mm-WAM"/>
+                        <outlet property="lblXml" destination="RDw-Bh-SLL" id="6hE-ah-sRz"/>
                         <outlet property="txtView" destination="xwo-AA-Nfl" id="8dM-zC-PJe"/>
                     </connections>
                 </viewController>
