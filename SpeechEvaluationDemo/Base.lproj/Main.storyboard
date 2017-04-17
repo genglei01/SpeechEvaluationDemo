@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Mice in the Barn, in the box. Out of the box through the hole.Down the tree,around the snake!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-AA-Nfl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Mice in the Barn, in the box. Out of the box through the hole.Down the tree,around the snake!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-AA-Nfl">
                                 <rect key="frame" x="70" y="70" width="628" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -32,7 +32,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arp-NI-fXf">
-                                <rect key="frame" x="334" y="347" width="100" height="30"/>
+                                <rect key="frame" x="334" y="377" width="100" height="30"/>
                                 <color key="backgroundColor" red="0.1294117719" green="0.77647066119999997" blue="0.4274510145" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="51i-NS-h1j"/>
@@ -56,7 +56,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3S-uq-7Yq">
-                                <rect key="frame" x="120" y="230" width="528" height="30"/>
+                                <rect key="frame" x="120" y="210" width="528" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8Ej-7i-9eG"/>
                                 </constraints>
@@ -65,7 +65,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RDw-Bh-SLL">
-                                <rect key="frame" x="50" y="427" width="668" height="567"/>
+                                <rect key="frame" x="50" y="457" width="668" height="537"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -79,12 +79,12 @@
                             <constraint firstItem="F5N-GM-7m7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="9HS-TT-XX1"/>
                             <constraint firstItem="xwo-AA-Nfl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="NRj-wD-KBS"/>
                             <constraint firstItem="RDw-Bh-SLL" firstAttribute="top" secondItem="arp-NI-fXf" secondAttribute="bottom" constant="50" id="Tfj-dV-6jH"/>
-                            <constraint firstItem="f3S-uq-7Yq" firstAttribute="top" secondItem="F5N-GM-7m7" secondAttribute="bottom" constant="30" id="U5Z-9o-Teg"/>
+                            <constraint firstItem="f3S-uq-7Yq" firstAttribute="top" secondItem="F5N-GM-7m7" secondAttribute="bottom" constant="10" id="U5Z-9o-Teg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f3S-uq-7Yq" secondAttribute="trailing" constant="100" id="Vqp-PV-Db0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F5N-GM-7m7" secondAttribute="trailing" constant="50" id="XMc-Eq-r0c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xwo-AA-Nfl" secondAttribute="trailing" constant="50" id="a4F-Vj-b8M"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RDw-Bh-SLL" secondAttribute="bottom" constant="30" id="ibE-4M-T16"/>
-                            <constraint firstItem="arp-NI-fXf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="oDZ-FK-56M"/>
+                            <constraint firstItem="arp-NI-fXf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="oDZ-FK-56M"/>
                             <constraint firstItem="arp-NI-fXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ovN-LA-Lbk"/>
                             <constraint firstItem="RDw-Bh-SLL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="qyr-xv-CZK"/>
                             <constraint firstItem="F5N-GM-7m7" firstAttribute="top" secondItem="xwo-AA-Nfl" secondAttribute="bottom" id="ycl-sz-r2L"/>

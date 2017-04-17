@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AEXML
 
 class EvaluationResultParser {
     private var _xmlDoc:AEXMLDocument?

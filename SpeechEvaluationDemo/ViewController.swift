@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.txtView.layer.borderColor = UIColor.black.cgColor
+        self.txtView.layer.borderWidth = 1
         
         _speechEvaluator = IFlySpeechEvaluator.sharedInstance()
         _speechEvaluator?.delegate = self

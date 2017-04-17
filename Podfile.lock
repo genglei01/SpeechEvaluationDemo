@@ -1,0 +1,15 @@
+PODS:
+  - AEXML (4.1.0)
+  - IQKeyboardManagerSwift (4.0.8)
+
+DEPENDENCIES:
+  - AEXML
+  - IQKeyboardManagerSwift (= 4.0.8)
+
+SPEC CHECKSUMS:
+  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+
+PODFILE CHECKSUM: 7ff53b96f2fe0768b8f2acf57620c3ec61641fea
+
+COCOAPODS: 1.2.1.beta.1
