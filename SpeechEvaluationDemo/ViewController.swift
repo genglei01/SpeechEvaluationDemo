@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtView: UITextView!
     @IBOutlet weak var lblResult: UILabel!
     @IBOutlet weak var lblMsg: UILabel!
-    
     @IBOutlet weak var lblXml: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
